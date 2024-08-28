@@ -1,2 +1,4 @@
-# Oasis
-This is a repository made to display my Web development projects I have done in the course of my internship at oasis infobyte
+# JANARTHANAN LANDING PAGE
+
+A Pen created on CodePen.io. Original URL: [https://codepen.io/Janarthanan-Prabhuram/pen/GRbdVpG](https://codepen.io/Janarthanan-Prabhuram/pen/GRbdVpG).
+
