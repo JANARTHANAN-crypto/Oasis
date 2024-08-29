@@ -1,0 +1,250 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta .button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta .button.primary:hover {
+    background-color: #f70924;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('https://xv.imgix.net/photos/xv/homepage-pingzhu-hero-bg-opt-v2-3ce3022343c7ad918545a6a2e01f36b5.jpg?auto=format%2Ccompress&cs=srgb&fit=max&w=3840&q=60&s=d1765a96787fbf3171244ad200df9997');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#hero .button {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#hero .button:hover {
+    background-color: #f70924;
+}
+
+/* Features Section */
+#features {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.feature img {
+    width: 150px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* Download Section */
+#download {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#download h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#download p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#download img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#download .button {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#download .button:hover {
+    background-color: #f70924;
+}
+
+/* Support Section */
+#support {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#support h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#support p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#support img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#support .button {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#support .button:hover {
+    background-color: #f70924;
+}
+
+/* Risk-Free VPN Section */
+#risk-free-vpn {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#risk-free-vpn h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#risk-free-vpn p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#risk-free-vpn img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+}
+
+footer .social-links img {
+    width: 24px;
+    height: 24px;
+}
